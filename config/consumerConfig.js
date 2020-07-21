@@ -1,6 +1,6 @@
 var config = {};
 
-config.consumerOptions= {
+config.consumerOption = {
     kafkaHost: '192.168.122.66:9092',
         batch: undefined,
         groupId: 'testGroup11',

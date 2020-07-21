@@ -11,6 +11,7 @@
   "dependencies": {
     "async": "^3.2.0",
     "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
     "delay": "^4.4.0",
     "dotenv": "^8.2.0",
     "execution-time": "^1.4.1",
@@ -22,7 +23,10 @@
     "lodash": "^4.17.19",
     "moment": "^2.27.0",
     "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
     "nodejs": "0.0.0",
+    "random-mobile": "^1.0.2",
+    "uuid": "^8.2.0",
     "xml2js": "^0.4.23"
   }
 }
