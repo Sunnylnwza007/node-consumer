@@ -29,3 +29,9 @@ exports.insert = function (req,res){
         console.log('success');
     })
 }
+
+exports.findAll = function (req,res){
+    return smsModel.find({},'-_id -__v', (err,sms) =>{
+        
+    })
+}

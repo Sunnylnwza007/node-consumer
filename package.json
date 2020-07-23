@@ -19,6 +19,7 @@
     "faker": "^4.1.0",
     "forever": "^3.0.0",
     "fs": "0.0.1-security",
+    "js2xml": "^1.0.9",
     "kafka-node": "^5.0.0",
     "lodash": "^4.17.19",
     "moment": "^2.27.0",

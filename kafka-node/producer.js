@@ -19,7 +19,7 @@ var client = new Client({ kafkaHost: process.env.KAFKA });
 var producer = new Producer(client, producerConfig.config);
 
 
-let obj = smsGenerate.sms(100);
+let obj = smsGenerate.sms(4);
 var json = JSON.stringify(obj);
 // console.log(json)
 
@@ -29,7 +29,7 @@ mongoose.connect(url+'/SMS', { useNewUrlParser: true, useUnifiedTopology: true }
 // mongoose.Promise = global.Promise;
 // const db = mongoose.connection;
 
-smsController.insert(obj)
+// smsController.insert(obj)
 
 producer.on('ready',async function () {
     console.log('ready')
